@@ -183,6 +183,7 @@ function drawGame(){
 		alert("GAME OVER: "+
 			"\nYou survived "+showTime+" seconds"+
 			"\nYour score is "+scoreCounter);
+		gameOver = false;
 		document.location.reload();
 	}
 }
