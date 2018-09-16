@@ -128,7 +128,7 @@ function drawArrow(){
 	// increasing speed over time is simple
 	// don't let it get too fast though
 	if(arrowSpeed < 2.5){
-		arrowSpeed += 0.00001;
+		arrowSpeed += 0.0001;
 	}
 	else{
 		
